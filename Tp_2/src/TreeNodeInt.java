@@ -3,13 +3,13 @@ public class TreeNodeInt {
     private TreeNodeInt right;
     private TreeNodeInt left;
 
-    public TreeNodeInt(int data) {
+    public TreeNodeInt(Integer data) {
         this.data = data;
     }
     public Integer getData() {
         return data;
     }
-    public void setData(int data) {
+    public void setData(Integer data) {
         this.data = data;
     }
     public TreeNodeInt getRight() {
@@ -24,5 +24,7 @@ public class TreeNodeInt {
     public void setLeft(TreeNodeInt left) {
         this.left = left;
     }
+
+
 
 }
